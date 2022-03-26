@@ -1,4 +1,4 @@
-PerformanceDataTutorial
+# PerformanceDataTutorial
 
 ======================
 
@@ -14,7 +14,7 @@ python > 3.7,
 
 ```
 
-# install midi_utils
+# install musicxml_parser
 git clone https://github.com/mac-marg-pianist/musicXML_parser.git
 cd musicXML_parser
 pip install -e .
@@ -26,7 +26,7 @@ cd midi_utils
 pip install -e .
 cd ..
 
-# install midi_utils, musicxml_parser
+# install pyScoreParser
 git pull https://github.com/jdasam/pyScoreParser.git
 pip install -e .
 cd ..
@@ -41,7 +41,7 @@ cd ..
 ```
 
 ### Coverage
-We plan to make this with four parts;
+We plan to make this into four parts;
 
 0. python (good to know things, while we study MIR)
 1. midi
@@ -76,4 +76,4 @@ We plan to make this with four parts;
 - [ ] Emotion Dataset wav/score/perform triplet load
 
 ### contribution
-use jupytext and do not commit notebook file.
+use jupytext and do not commit notebook file. (light Script)
