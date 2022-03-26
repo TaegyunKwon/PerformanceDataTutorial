@@ -14,7 +14,7 @@ python > 3.7,
 
 ```
 
-# install midi_utils
+# install musicxml_parser
 git clone https://github.com/mac-marg-pianist/musicXML_parser.git
 cd musicXML_parser
 pip install -e .
@@ -26,7 +26,7 @@ cd midi_utils
 pip install -e .
 cd ..
 
-# install midi_utils, musicxml_parser
+# install pyScoreParser
 git pull https://github.com/jdasam/pyScoreParser.git
 pip install -e .
 cd ..
