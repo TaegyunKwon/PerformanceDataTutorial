@@ -1,4 +1,4 @@
-PerformanceDataTutorial
+# PerformanceDataTutorial
 
 ======================
 
@@ -76,4 +76,4 @@ We plan to make this with four parts;
 - [ ] Emotion Dataset wav/score/perform triplet load
 
 ### contribution
-use jupytext and do not commit notebook file.
+use jupytext and do not commit notebook file. (light Script)
