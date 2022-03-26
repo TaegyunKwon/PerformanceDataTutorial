@@ -41,7 +41,7 @@ cd ..
 ```
 
 ### Coverage
-We plan to make this with four parts;
+We plan to make this into four parts;
 
 0. python (good to know things, while we study MIR)
 1. midi
