@@ -97,8 +97,49 @@ print(file_name.name)
 # %% [markdown]
 # ### Lambda Sort
 
+# %%
+import numpy as np
+import randomname
+
+# %% [markdown]
+# make arbitary data
+
+# %%
+unsorted_list = []
+for n in range(10):
+    user_name = randomname.generate()
+    age = np.random.randint(100)
+    unsorted_list.append((user_name, age))
+print(unsorted_list)
+
+# %% [markdown]
+# sort them according to second element (age)
+
+# %%
+sorted_list = sorted(unsorted_list, key=lambda x:x[1]) # x[1] becomes standard
+
+# %%
+print(sorted_list)
+
 # %% [markdown]
 # ### F string
+
+# %%
+name = 'Taegyun Kwon'
+height = 187.5
+item_in_pocket = ['piano', 'flower', 'book']
+
+print(
+    f"you can write python variables like this: \
+    {name}'s height is {height}, \
+    and he have {item_in_pocket} in his pocket")
+
+# %%
+a = 2
+b = 4.6
+c = 0.123456789
+print(f'you can do everything inside. {a} + {b} = {a+b}')
+print(f'you can control digits with :.(digit)f expres
 
 # %% [markdown]
 # ### File read & write
