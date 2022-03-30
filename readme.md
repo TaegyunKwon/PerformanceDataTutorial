@@ -53,9 +53,9 @@ We plan to make this into four parts;
 - [ ] reqirements.txt
 
 0. python
-- [ ] f-string examples
+- [x] f-string examples
 - [ ] file read / write
-- [ ] sorting with Lambda expression
+- [x] sorting with Lambda expression
 
 1. midi
 - [ ] draw midi roll
