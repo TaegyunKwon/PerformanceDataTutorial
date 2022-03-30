@@ -27,7 +27,7 @@ pip install -e .
 cd ..
 
 # install pyScoreParser
-git pull https://github.com/jdasam/pyScoreParser.git
+git pull https://github.com/TaegyunKwon/pyScoreParser.git
 pip install -e .
 cd ..
 
