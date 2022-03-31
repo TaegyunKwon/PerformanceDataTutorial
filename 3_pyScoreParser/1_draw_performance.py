@@ -41,9 +41,6 @@ perform_notes[0]
 # + tags=[]
 matched_idx = performance.match_between_xml_perf
 
-# + tags=[] jupyter={"outputs_hidden": true}
-matched_idx
-
 
 # -
 
