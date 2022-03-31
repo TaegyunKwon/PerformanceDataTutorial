@@ -22,7 +22,7 @@ from pathlib import Path
 
 file_root = '../assets/Beethoven_Sonata_8_2/'
 xml_file = Path(file_root) / 'score.xml'
-midi_files = [el for el in Path(file_root).glob('*.mid')]
+midi_files = [el for el in Path(file_root).glob('*.mid') if 'score' not in el.name]
 
 piece_data = data_class.PieceData(xml_path=xml_file,
                                   perform_lists=midi_files)
@@ -76,7 +76,3 @@ print(len(piece_data.performances[0].match_between_xml_perf)) # same as len(xml_
 for pair in piece_data.performances[0].pairs[:10]:
     print(pair)
 print(len(piece_data.performances[0].pairs)) # same as len(xml_notes)
-
-
-
-

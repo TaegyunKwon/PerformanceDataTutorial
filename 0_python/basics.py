@@ -139,7 +139,7 @@ a = 2
 b = 4.6
 c = 0.123456789
 print(f'you can do everything inside. {a} + {b} = {a+b}')
-print(f'you can control digits with :.(digit)f expres
+print(f'you can control digits with :.(digit)f expression. c = {c:.4f}')
 
 # %% [markdown]
 # ### File read & write
